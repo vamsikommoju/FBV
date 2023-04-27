@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block b1 %}
+{% load static %}
+<img width="150" height="200" src="{% static 'images/sonu.jpg' %}" alt="">
+    {% for j in info %}
+      <h1>{{j}}</h1>
+    {% endfor %}
+{% endblock %}
